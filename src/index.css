@@ -1,0 +1,39 @@
+.container-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.datos {
+    display: flex;
+    align-self: center;
+}
+.card-title {
+    display: flex;
+    justify-self: center;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+.scroll-horizontal {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2rem;
+}
+.row-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex: 0 0 auto;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0; /* Alinea al borde izquierdo del botón */
+    transform: translateX(-20%); /* Mueve completamente hacia la izquierda */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
